@@ -31,14 +31,11 @@ section.masthead {
 
   .content {
     padding:5rem;
+    min-height: 47vh;
     /* background-color: #F3F1F5; */
   }
 
   footer {
-    position: fixed;
-    bottom: 0;
-    right:0;
-    left:0;
     background-color: #11324D;
     padding-top: 1rem;
     padding-bottom: 1rem;
