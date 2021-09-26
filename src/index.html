@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meal</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid text-white">
+                <span class="navbar-brand mb-0 h1">Home</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="masthead">
+            <div class="container position-relative ">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <h1>Find Meal DB</h1>
+                            <p class="mb-5">api : https://www.themealdb.com/api.php</p>
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="inputFood" type="text"
+                                        placeholder="find meal" />
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-dark btn-lg" id="findButton" type="submit">Cari</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="row">
+                <meal-list></meal-list>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container position-relative ">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <h5>My Website 2021. All Rights Reserved</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
